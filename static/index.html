@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="static/js/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="static/js/test.js"></script>
+
+<form id="myForm">
+    <legend>Добавить рецепт</legend>
+
+    <input type="text" name="title" placeholder="title">
+    <input type="text" name="time_cook" placeholder="time_cook">
+    <input type="text" name="ingridients" placeholder="ingridients">
+    <input type="text" name="description" placeholder="description">
+
+    <button value="submit" type="submit">Submit</button>
+</form>
+
+<br>
+
+<span class="input-group-btn">
+    <button class="btn btn-default" type="button" id="employee">Обновить</button>
+</span>
+<table id="content" border="2">
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Количество просмотров</th>
+            <th>Время готовки</th>
+        </tr>
+    </thead>
+    <tbody id="emp">
+    </tbody>
+</table>
+
+</script>
+</body>
+</html>
